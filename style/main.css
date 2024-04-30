@@ -1,0 +1,15 @@
+body{
+    background: #f5da81;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #800000;
+}
+
+button{
+    background: rgb(217, 236, 243);
+}
+
+audio{
+    color: #b45f04;
+    display: flex;
+    margin: auto;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/main.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Reproduccion de audio</h1>
+
+    <script>
+      var meses = new Array(
+        "Enero",
+        "Febrero",
+        "Marzo",
+        "Abril",
+        "Mayo",
+        "Junio",
+        "Julio",
+        "Agosto",
+        "Septiembre",
+        "Octubre",
+        "Noviembre",
+        "Diciembre"
+      );
+
+      var f = new Date();
+      document.write(
+        f.getDate() + " de " + meses[f.getMonth()] + " del " + f.getFullYear()
+      );
+    </script>
+
+    <audio src="sound/Antonio Sanchez - Doors and Distance (Birdman Original Score).mp3" preload="auto" controls autoplay></audio><br>
+    <audio src="sound/DJ Shadow - Building Steam with a Grain of Salt.mp3" preload="auto" controls></audio><br>
+    <audio src="sound/Outer Wilds Original Soundtrack 01 - Timber Hearth.mp3" preload="auto" controls></audio><br>
+    
+    
+  </body>
+</html>
